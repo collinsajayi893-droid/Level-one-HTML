@@ -1,0 +1,73 @@
+body {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.ipo {
+    width: 100%;
+    height: 700px;
+    background-image: url("https://mailchimp.com/ctf/images/yzco4xsimv0y/5ti0F3znmaQ33B30TxuD1t/0ad3dac3dc8ab7c0f6635c3a7489cd1a/hero_standard_1920x1080_temp_solution_1x.webp?w=1536&q=70");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.bob {
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 60px;
+}
+.mom {
+    text-align: center;
+    color: yellow;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -65px;
+
+}
+.non {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -40px;
+}
+.ops {
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: yellow;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-width: 70px;
+    margin-left: 470px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.bbo {
+    margin-left: 400px;
+    margin-top: 100px;
+}
+.uhn {
+    margin-left: 600px;
+    margin-top: -27px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.bbp {
+    margin-left: 400px;
+    margin-top: 10px;
+}
+.vvo {
+    margin-left: 50px;
+}
+.olota {
+    margin-left: 40px;
+}
+    

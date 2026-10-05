@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
+}
+
+.innerBig {
+    width: 200px;
+    height: 400px;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.innerSmall {
+    width: 200px;
+    height: 250px;
+    background-color: red;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.outer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.hero {
+    display: flex;
+    gap: 10px;
+}
+.section2 {
+    width: 70%;
+    height: 400px;
+    margin: 50px 0;
+    background-color: brown;
+    border-radius: 25px;
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+}
+
+.smallDiv {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+/* Justify (horizontally) and Align (vertically)
+justify-self
+justify-content
+justify-items*/
