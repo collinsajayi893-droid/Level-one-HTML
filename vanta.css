@@ -2,6 +2,7 @@ body {
     max-width: 100%;
     margin: 0;
     padding: 0;
+    background-color: #D2E823;
 }
 
 .vanta {
@@ -18,6 +19,7 @@ body {
     justify-self: center;
     text-align: center;
     line-height: .5px;
+    margin-bottom: 50px;
 }
 
 .header-text p {
@@ -68,4 +70,70 @@ hr {
 .card-container {
     display: flex;
     justify-content: space-between;
+}
+
+.container {
+    width: 100%;
+    height: 400px;
+    background-color: red;
+    margin: 40px 0;
+}
+
+
+nav {
+    width: 90%;
+    height: 8vh;
+    background-color: white;
+    margin: 30px;
+    border-radius: 30px;
+    justify-self: center;
+    padding: 20px 5px 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 30px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+.right button {
+    border: none;
+    padding: 20px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.sign {
+    background-color: black;
+    color: white;
+}
+
+.sign:hover {
+    background-color: #262D3E;
+}
+.log {
+    background: none;
+}
+/* Tablets */
+@media (min-width: 481px) and (max-width: 1024px) {
+    .container {
+        background-color: blue;
+    }
+    
+}
+
+/* Phones */
+@media (min-width: 0px) and (max-width: 480px){
+    .container {
+        background-color: black;
+    }
 }
