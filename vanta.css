@@ -1,5 +1,5 @@
 body {
-    max-width: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
     background-color: #D2E823;
@@ -70,6 +70,7 @@ hr {
 .card-container {
     display: flex;
     justify-content: space-between;
+    justify-content: space-around;
 }
 
 .container {
@@ -120,6 +121,36 @@ nav {
 .sign:hover {
     background-color: #262D3E;
 }
+
+.right {
+    display: flex;
+    gap: 10px;
+}
+.menu {
+    display: none;
+}
+.child {
+    width: 40vw;
+    height: 40vh;
+    background-color: white;
+    border-radius: 20px;
+    flex-shrink: 0;
+}
+.flex-mother {
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+    /* flex-wrap: wrap; */
+    overflow-x: scroll;
+    scrollbar-width: none;
+    justify-content: center;
+    gap: 20px;
+}
+
+.flex-mother::-webkit-scrollbar {
+    /* display: none; */
+}
+
 .log {
     background: none;
 }
@@ -128,6 +159,14 @@ nav {
     .container {
         background-color: blue;
     }
+
+    .links {
+        /* display: none; */
+        visibility: hidden;
+    }
+    .menu {
+        display: block;
+    }
     
 }
 
@@ -135,5 +174,9 @@ nav {
 @media (min-width: 0px) and (max-width: 480px){
     .container {
         background-color: black;
+    }
+
+    .links {
+        display: none;
     }
 }
