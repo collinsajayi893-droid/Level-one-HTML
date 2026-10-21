@@ -67,11 +67,13 @@
 
 .moving_images img {
     width: 120px;
+    flex-shrink: 0;
 }
 
 .moving_images {
+    max-width: 100%;
     display: flex;
-    overflow-x: scroll;
+    overflow: hidden;
     scrollbar-width: none;
     gap: 70px;
 }
