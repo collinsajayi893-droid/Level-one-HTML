@@ -177,7 +177,7 @@ input {
     background-position: center;
     background-size: cover;
 }
-.Tola {
+.Sola {
     margin-left: 660px;
     margin-top: -400px;
 }
@@ -505,4 +505,27 @@ u {
 .Pkay {
     display: flex;
     gap: 15px;
+}
+.Sola {
+    display: flex;
+    gap: 200px;
+}
+.Sola.img {
+    height: 400px;
+}
+.Ash {
+    background-color: rgba(247, 245, 245, 0.4);
+    width: 15vw;
+    height: 7vh;
+    border-radius: 10px;
+    backdrop-filter: blur(1px);
+}
+.Polish {
+    width: 90px;
+    height: 50px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 20px;
 }

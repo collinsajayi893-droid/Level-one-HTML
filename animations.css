@@ -1,0 +1,92 @@
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: black;
+    /* transform: translateX(-50px); */
+    /* transition-duration: 3s; */
+    animation: rollingBall 3s infinite;
+}
+
+.box:hover {
+    transform: scale(0.5, 1.5);
+    /* transition-duration: 1s;
+    transform: rotate(360deg); */
+    /* transform: skew(45deg); */
+
+}
+
+
+/* Transform- translate */
+
+
+@keyframes rollingBall {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(1200px);
+    }
+}
+
+.circle {
+     width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    animation: rollingCircle 3s infinite;
+}
+
+@keyframes rollingCircle {
+    0% {
+        transform: translateX(0);
+    }
+    20% {
+        transform: translateX(200px);
+        background-color: green;
+    }
+
+    50% {
+        transform: translateX(500px);
+        background-color: blue;
+    }
+
+    80% {
+        transform: translateX(700px);
+        background-color: black;
+    }
+
+    100% {
+        transform: translateX(1200px);
+        background-color: mediumpurple;
+    }
+}
+
+.moving_images img {
+    width: 120px;
+}
+
+.moving_images {
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    gap: 70px;
+}
+.Carry {
+    display: flex;
+    gap: 70px;
+    animation: moving 12s linear infinite;
+}
+
+@keyframes moving {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
