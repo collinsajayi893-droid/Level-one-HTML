@@ -1,0 +1,30 @@
+.bar1 {
+    width: 4vw;
+    height: 45vh;
+    background-color: lightblue;
+    animation: grow 2s infinite;
+    transform-origin: bottom;
+    
+}
+
+.bar2 {
+    width: 4vw;
+    height: 35vh;
+    background-color: plum;
+    animation: grow 2s forwards 2s;
+    transform-origin: bottom;
+}
+
+.graph {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+@keyframes grow {
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
