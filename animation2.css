@@ -2,7 +2,7 @@
     width: 4vw;
     height: 45vh;
     background-color: lightblue;
-    animation: grow 2s infinite;
+    animation: grow 2s;
     transform-origin: bottom;
     
 }
@@ -11,6 +11,7 @@
     width: 4vw;
     height: 35vh;
     background-color: plum;
+    transform: scaleY(0);
     animation: grow 2s forwards 2s;
     transform-origin: bottom;
 }
@@ -26,5 +27,47 @@
     }
     100% {
         transform: scaleY(1);
+    }
+}
+
+.mother div {
+    width: 20vw;
+    height: 30vh;
+    background-color: red;
+    border-radius: 15px;
+    flex-shrink: 0;
+}
+
+.mother {
+    display: grid;
+    max-width: 100%;
+    justify-self: center;
+    gap: 20px 60px;
+}
+
+/* Phones */
+@media (max-width: 480px) {
+    .mother {
+        grid-template-columns: 1fr;
+    }
+    .mother div {
+        width: 80vw;
+    }
+}
+
+/* Tablets*/
+@media (min-width: 481px) and (max-width: 1024px) {
+    .mother {
+        grid-template-columns: 1fr 1fr;
+    }
+    .mother div {
+        width: 40vw;
+    }
+}
+
+/* Laptops */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .mother {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }

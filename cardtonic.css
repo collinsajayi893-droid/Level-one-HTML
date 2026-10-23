@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+nav {
+    width: 100%;
+    height: 12vh;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    display: flex;
+    gap: 280px;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown {
+    width: 50vw;
+    height: 60vh;
+    border-radius: 25px;
+    background-color: white;
+    position: absolute;
+    display: none;
+    left: -300px;
+    top: 80px;
+}
+.links {
+    display: flex;
+    gap: 25px;
+    justify-self: center;
+}
+.navlink {
+    position: relative;
+    cursor: pointer;
+}
+.navlink:hover .dropdown {
+    display: block;
+}
+.Pass {
+    display: flex;
+}
+.Touch {
+    display: flex;
+    gap: 15px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.Touch:hover {
+    background-color: #F8F8F9;
+}
+.Ship {
+    color: #1B8BCE;
+}
+.links p {
+    color: #002444;
+}
+.Popsy {
+    display: flex;
+    gap: 50px;
+}
+.Fim {
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    color: #002444;
+    gap: 5px;
+    margin-top: 16px;
+}
+.Pass p {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.navlink:hover .Pass img {
+    transform: rotate(180deg);
+    transition-duration: 1.5s;
+}
+.Pack {
+    background-color: #F8F8F9;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+.Pack:hover {
+    border: 2px solid #002444;
+}
+.Dim {
+    width: 14vw;
+    height: 37vh;
+    display: none;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    border-radius: 20px;
+}
+.Pack:hover .Dim {
+    display: block;
+}
+.Klass {
+    display: flex;
+    gap: 20px;
+    margin-left: 35px;
+    margin-bottom: 15px;
+}
+.Tnt {
+    background-color: #002444;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Tash {
+    width: 140px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: #002444;
+    cursor: pointer;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.Tash:hover {
+    background-color: #7580EF;
+}
+.Right {
+    display: flex;
+    gap: 25px;
+}
+.Tilt {
+    background-color: #7580EF;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.Tap {
+    display: flex;
+    width: 450px;
+    border-radius: 20px;
+    height: 45px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    border: 0.5px solid gray;
+    margin-top: 50px;
+    gap: 13px;
+    color: #002444;
+    font-family: sans-serif;
+    justify-content: space-around;
+}
+.Ask {
+    color: #002444;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-top: 55px;
+}
+.Falacy {
+    color: #7580EF;
+}
+.Sade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Pop {
+    font-size: 25px;
+    color: #002444;
+    /* font-family: sans-serif; */
+}
+.Pilt {
+    width: 500px;
+    height: 110px;
+    border-radius: 60px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #002444;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.Pilt:hover {
+    background-color: #1B8BCE;
+}
+.Manny {
+    width: 100%;
+}
+.Apple {
+    font-weight: bolder;
+    font-family: sans-serif;
+    font-size: 60px;
+    color: #D1E0E4;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.Shama {
+    background: linear-gradient(90deg, #F0F2F5, #CBDDF9);
+    width: 90%;
+    height: 650px;
+    border-radius: 40px;
+    justify-self: center;
+}
+.Pad {
+    margin-left: 35px;
+    padding-top: 120px;
+}
+.Posh {
+    font-size: 50px;
+    font-weight: bolder;
+    color: #002444;
+}
+.Monk {
+    font-size: 25px;
+    color: #416280;
+    font-family: sans-serif;
+}
