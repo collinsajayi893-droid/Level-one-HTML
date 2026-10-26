@@ -13,6 +13,7 @@ nav {
     gap: 280px;
     justify-content: center;
     align-items: center;
+    z-index: 100;
 }
 .dropdown {
     width: 50vw;
@@ -146,6 +147,17 @@ nav {
     align-items: center;
     margin-right: 10px;
 }
+.Tap:hover .Tilt {
+ animation: loop 0.5s alternate-reverse linear infinite;
+}
+@keyframes loop {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translate(20px);
+    }
+}
 .Tap {
     display: flex;
     width: 450px;
@@ -201,6 +213,7 @@ nav {
 }
 .Manny {
     width: 100%;
+    display: grid;
 }
 .Apple {
     font-weight: bolder;
@@ -213,9 +226,13 @@ nav {
 .Shama {
     background: linear-gradient(90deg, #F0F2F5, #CBDDF9);
     width: 90%;
-    height: 650px;
+    height: 690px;
     border-radius: 40px;
     justify-self: center;
+    display: flex;
+    gap: 200px;
+    position: relative;
+    overflow: hidden;
 }
 .Pad {
     margin-left: 35px;
@@ -230,4 +247,281 @@ nav {
     font-size: 25px;
     color: #416280;
     font-family: sans-serif;
+}
+.Pot {
+    color: #7580EF;
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+
+}
+.Poll {
+    border: 1px solid #7580EF;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5px;
+}
+.Pot:hover .Poll {
+    animation: loop 0.5s alternate-reverse linear infinite;
+}
+@keyframes loop {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translate(20px);
+    }
+}
+.Pooky {
+    position: absolute;
+    margin-left: 650px;
+}
+.Shama:hover .Pooky {
+    transform: scale(1.065);
+    animation-duration: 1.2s;
+}
+.Asa {
+    background: linear-gradient(226deg, #E0FDFF, #FFE4DB);
+    width: 590px;
+    height: 700px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+.Ola {
+    width: 590px;
+    height: 700px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #02CDDE, #F0FCFD);
+    display: flex;
+    position: relative;
+    overflow: hidden;
+
+}
+.Gang {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.Ola:hover .Gang {
+    transform: scale(1.065);
+    animation-duration: 1.5s;
+}
+.Head {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.Makoko {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.Asa:hover .Makoko {
+    transform: scale(1.065);
+    animation-duration: 1.5s;
+}
+.Bhama {
+    background: linear-gradient(90deg, #F0F2F5, #CBDDF9);
+    width: 90%;
+    height: 690px;
+    border-radius: 40px;
+    justify-self: center;
+    display: flex;
+    gap: 200px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.Looky {
+    position: absolute;
+    margin-left: 800px;
+    bottom: 0;
+}
+.Bhama:hover .Looky {
+    transform: scale(1.065);
+}
+.Dad {
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+}
+.San {
+    width: 590px;
+    height: 700px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    background-color: #DCF7FF;
+}
+.Cad {
+     margin-left: 35px;
+    padding-top: 20px;
+}
+.San:hover .Fam {
+    transform: scale(1.065);
+}
+.Fam {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.Tack {
+    background: linear-gradient(226deg, #F0F2F5, #F4DCC9);
+    width: 590px;
+    height: 700px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+.Lola {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.Tack:hover .Lola {
+    transform: scale(1.065);
+}
+.Dad {
+    margin-left: 70px;
+}
+.Into {
+    background-color: #D6EEFF;
+    width: 90%;
+    height: 690px;
+    border-radius: 40px;
+    justify-self: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    margin-top: 30px;
+}
+.Olly {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+.Into:hover .Olly {
+    transform: scale(1.065);
+}
+
+.Shaxxy {
+    color: #7980F0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 100px;
+}
+.Pulse {
+    display: flex;
+    gap: 50px;
+    justify-self: center;
+    margin-top: 40px;
+}
+.Pulse img {
+    width: 180px;
+    height: 70px;
+}
+.Uss {
+    color: #D1E0E4;
+    font-size: 60px;
+    margin-left: 50px;
+    font-family: sans-serif;
+    padding-top: 70px;
+    font-weight: bolder;
+}
+
+.roller {
+    display: flex;
+    gap: 30px;
+}
+
+.vertical-roller {
+    max-width: 100%;
+    margin-top: 50px;
+    justify-self: center;
+    height: 80vh;
+    overflow: hidden;
+    scrollbar-width: none;
+}
+.roller-track {
+    animation: sliding 30s linear infinite;
+    display: flex;
+    gap: 30px;
+}
+
+@keyframes sliding {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-600%);
+    }
+}
+.Slack {
+    background-color: #F8F8F9;
+    width: 550px;
+    height: 350px;
+    border-radius: 20px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.Kiln {
+    font-size: 25px;
+    color: #1B8BCE;
+    margin-top: 45px;
+    font-family: sans-serif;
+}
+.Ball {
+    font-size: 20px;
+    color: #1B8BCE;
+    font-weight: bold;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.Laim {
+    color: #1B8BCE;
+    font-size: 18px;
+    margin-top: -20px;
+}
+.Nat {
+    margin-left: 30px;
+    padding-top: 30px;
+}
+.Lol {
+    position: absolute;
+    right: 20px;
+    bottom: 25px;
+}
+
+@media (max-width: 480px) {
+    .Center {
+        display: none;
+    }
+    .Right {
+        display: none;
+    }
+    .Right {
+        background-image: url("cil--hamburger-menu.svg");
+    }
+    .Manny {
+        grid-template-columns: 1fr;
+    }
+    .Shama {
+        width: 100vw;
+    }
 }
